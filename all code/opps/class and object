@@ -1,0 +1,31 @@
+#include <iostream> 
+Usingnamespacestd; 
+// creating Animal class
+ classAnimal{
+     boolgives_birth;
+      boollay_egg;
+      boollive_in_ground;
+       boollive_in_water; 
+       boolhave_wings; 
+       }; 
+       intmain()
+       { // creating an object of animal class Animal mammal;
+        //assign values to instance 
+         mammal.gives_birth =true;
+          mammal.lay_egg =false;
+           mammal.live_in_ground =true;
+            mammal.live_in_water =false;
+             mammal.have_wings =false;
+              Animal amphibian;
+               amphibian.gives_birth =false;
+                amphibian.lay_egg =true; 
+                amphibian.live_in_ground =true;
+                 amphibian.live_in_water =true;
+                  amphibian.have_wings =false; 
+                  Animal bird; 
+                  bird.gives_birth =false;
+                   bird.lay_egg =true;
+                    bird.live_in_ground =true;
+                     bird.live_in_water =false;
+                      bird.have_wings =true;
+                       }
